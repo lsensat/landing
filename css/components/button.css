@@ -1,0 +1,46 @@
+/* Your button CSS file */
+
+.btn-medium{
+  color: rgb(185, 185, 185);
+  font-weight: lighter;
+  border: 1px solid rgb(185, 185, 185);
+  border-radius: 25px;
+  padding: 12px 24px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-medium:hover{
+  color: rgb(130, 130, 130);
+  border-color: rgb(130, 130, 130);
+}
+
+.btn-treehouse{
+  color: white;
+  font-weight: bold;
+  background-color: #6ad58c;
+  border-radius: 6px;
+  padding: 14px 24px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-treehouse:hover{
+  background-color: #3ac162;
+}
+
+.btn-contact{
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 13px 21px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-contact:hover{
+  transition: 0.2s;
+  color: black;
+  background-color: white;
+}
